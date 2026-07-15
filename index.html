@@ -21,8 +21,7 @@
       <link rel="stylesheet" href="css/style.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="data:,">
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
@@ -41,39 +40,31 @@
       </div>
       <!-- end loader -->
       <!-- header -->
-      <header>
+      <header> 
          <!-- header inner -->
          <div class="header">
             <div class="container">
-               <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9 pl-0"> <nav class="navigation navbar navbar-expand-md navbar-dark p-0"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="index.html"> Beranda </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#about">Tentang</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#service">Layanan</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#portfolio">Portofolio</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#customer">Tim</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#ulasan">Ulasan</a>
-                              </li>
+               <div class="row align-items-center">
+
+                  <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9 col-6 d-flex align-items-center">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark p-0" style="width: 100%;">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav">
+                              <li class="nav-item active"><a class="nav-link" href="index.html"> Beranda </a></li>
+                              <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                              <li class="nav-item"><a class="nav-link" href="#service">Layanan</a></li>
+                              <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
+                              <li class="nav-item"><a class="nav-link" href="#team">Tim</a></li>
+                              <li class="nav-item"><a class="nav-link" href="#ulasan">Ulasan</a></li>
                            </ul>
                         </div>
                      </nav>
                   </div>
-                  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col logo_section">
+
+                  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6 logo_section d-flex align-items-center justify-content-end">
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
@@ -82,33 +73,16 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 d-flex justify-content-end pr-0"> <ul class="email d-flex align-items-center mb-0"> <li>
-                     <ul class="email">
-                        <li>
-                           <a href="#">
-                              <i class="fa fa-facebook"></i>
-                           </a>
-                        </li>
 
-                        <li>
-                           <a href="#">
-                              <i class="fa fa-instagram"></i>
-                           </a>
-                        </li>
-
-                        <li>
-                           <a href="#">
-                              <i class="fa fa-youtube-play"></i>
-                           </a>
-                        </li>
-
-                        <li>
-                           <a href="#" style="font-size: 20px; display: flex; align-items: center; justify-content: center; height: 100%;">
-                              <i class='bx bxl-tiktok'></i>
-                           </a>
-                        </li>
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 d-none d-md-flex justify-content-end align-items-center pr-0">
+                     <ul class="email d-flex align-items-center mb-0"> 
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="#" style="font-size: 20px; display: flex; align-items: center; justify-content: center; height: 100%;"><i class='bx bxl-tiktok'></i></a></li>
                      </ul>
                   </div>
+
                </div>
             </div>
          </div>
@@ -427,7 +401,7 @@
                <div class="modal-content">
                   <div class="modal-body p-0">
                      <button type="button" class="close_modal_btn" data-dismiss="modal" aria-label="Close">&times;</button>
-                     <div class="row no-gutters">
+                     <div class="row no-gutters align-items-stretch">
                         <div class="col-md-6">
                            <div class="modal_img_container">
                               <img src="images/Dekorasi-Kamar.jpg" alt="Dekorasi Kamar VIP">
@@ -439,6 +413,8 @@
                               <h2>Dekorasi Kamar Spa VIP</h2>
                               <div class="modal_line"></div>
                               <p>Kami menyediakan layanan penataan dekorasi kamar spa khusus bertema klasik Nusantara untuk menyambut paket ritual pengantin (*wedding package*). Penataan kelopak bunga segar, aromaterapi kenanga alami, dan pencahayaan hangat disiapkan mendalam demi menghadirkan atmosfer sakral nan rileks yang tak terlupakan.</p>
+                              <a href="https://tailwindcss.com" target="_blank" class="btn_modal_link"><i class="fa fa-link"></i> Kunjungi Tautan</a>
+                           </div>
                            </div>
                         </div>
                      </div>
@@ -452,7 +428,7 @@
                <div class="modal-content">
                   <div class="modal-body p-0">
                      <button type="button" class="close_modal_btn" data-dismiss="modal" aria-label="Close">&times;</button>
-                     <div class="row no-gutters">
+                     <div class="row no-gutters align-items-stretch">
                         <div class="col-md-6">
                            <div class="modal_img_container">
                               <img src="images/pelatihan.jpeg" alt="Pelatihan Terapis">
@@ -464,6 +440,8 @@
                               <h2>Standardisasi & Pelatihan</h2>
                               <div class="modal_line"></div>
                               <p>Seluruh terapis di Sekaloka wajib mengikuti pelatihan dan standardisasi teknik pijat anatomi secara berkala. Hal ini memastikan setiap sentuhan, tekanan, dan pemorehan lulur dilakukan secara profesional dan konsisten, memberikan kenyamanan terapeutik terbaik serta keamanan penuh bagi kebugaran tubuh Anda.</p>
+                              <a href="https://tailwindcss.com" target="_blank" class="btn_modal_link"><i class="fa fa-link"></i> Kunjungi Tautan</a>
+                           </div>
                            </div>
                         </div>
                      </div>
@@ -477,7 +455,7 @@
                <div class="modal-content">
                   <div class="modal-body p-0">
                      <button type="button" class="close_modal_btn" data-dismiss="modal" aria-label="Close">&times;</button>
-                     <div class="row no-gutters">
+                     <div class="row no-gutters align-items-stretch">
                         <div class="col-md-6">
                            <div class="modal_img_container">
                               <img src="images/souvenir.jpeg" alt="Souvenir Herbal">
@@ -489,6 +467,8 @@
                               <h2>Souvenir Ramuan Organik</h2>
                               <div class="modal_line"></div>
                               <p>Kami mengolah bahan-bahan dasar herbal pilihan secara organik tanpa pengawet kimia. Souvenir eksklusif ini dirancang khusus sebagai buah tangan premium agar kehangatan, keharuman alami, serta khasiat perawatan khas Sekaloka tetap dapat Anda rasakan dan lanjutkan di kenyamanan rumah sendiri.</p>
+                              <a href="https://tailwindcss.com" target="_blank" class="btn_modal_link"><i class="fa fa-link"></i> Kunjungi Tautan</a>
+                           </div>
                            </div>
                         </div>
                      </div>
@@ -507,6 +487,10 @@
                <div class="col-md-6 mb-4 mb-md-0">
                   <div class="why_minimal_img">
                      <img src="images/why-choose-us.avif" alt="Keunggulan Sekaloka">
+                     
+                     <a href="https://tailwindcss.com" target="_blank" class="video_play_btn" title="Putar Video">
+                        <i class="fa fa-play"></i>
+                     </a>
                   </div>
                </div>
 
@@ -515,7 +499,7 @@
                      <span class="subtitle_why">Keunggulan Kami</span>
                      <h2>Kenapa Memilih Sekaloka?</h2>
                      <div class="modal_line"></div>
-                     <p class="why_main_p">Kami memadukan warisan resep kecantikan leluhur dengan standar kenyamanan modern demi memberikan pengalaman relaksasi yang murni.</p>
+                     <p class="why_main_p">Kami memadukan resep kecantikan leluhur dengan standar modern demi relaksasi tubuh dan pikiran yang murni.</p>
                      
                      <ul class="why_minimal_list">
                         <li>
@@ -531,6 +515,12 @@
                            <strong>Ruangan Privat:</strong> Atmosfer klasik yang tenang, higienis, dan terpisah secara personal.
                         </li>
                      </ul>
+
+                     <div class="mt-4">
+                        <a href="https://tailwindcss.com" target="_blank" class="btn_why_link">
+                           Pelajari Selengkapnya <i class="fa fa-arrow-right" style="margin-left: 5px;"></i>
+                        </a>
+                     </div>
                   </div>
                </div>
 
@@ -538,8 +528,8 @@
          </div>
       </div>
       <!-- end why choose -->
-      <!-- customer -->
-      <div id="customer" class="sekaloka_team_section">
+       <!-- team -->
+      <div id="team" class="sekaloka_team_section">
          <div class="container">
             
             <div class="row mb-5">
@@ -555,36 +545,60 @@
             <div class="row justify-content-center">
                
                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="sekaloka_flat_card">
+                  <div class="sekaloka_flat_card animate_team_card">
                      <div class="sekaloka_flat_img">
-                        <img src="images/man.png" alt="Andi"/>
+                        <img src="images/man.png" alt="Andi Prasetya"/>
+                        <div class="team_sosmed_overlay">
+                           <div class="team_sosmed_icons">
+                              <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                              <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                              <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                           </div>
+                        </div>
                      </div>
                      <div class="sekaloka_flat_content text-center">
-                        <h3>Andi</h3>
+                        <h3>Andi Prasetya</h3>
                         <span class="sekaloka_flat_role">Head Therapist</span>
                      </div>
                   </div>
                </div>
 
                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="sekaloka_flat_card">
+                  <div class="sekaloka_flat_card animate_team_card">
                      <div class="sekaloka_flat_img">
-                        <img src="images/woman.png" alt="Sinta"/>
+                        <img src="images/woman.png" alt="Sinta Lestari"/>
+                        <div class="team_sosmed_overlay">
+                           <div class="team_sosmed_icons">
+                              <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                              <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                              <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                           </div>
+                        </div>
                      </div>
                      <div class="sekaloka_flat_content text-center">
-                        <h3>Sinta</h3>
+                        <h3>Sinta Lestari</h3>
                         <span class="sekaloka_flat_role">Manager Operasional</span>
                      </div>
                   </div>
                </div>
 
                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="sekaloka_flat_card">
+                  <div class="sekaloka_flat_card animate_team_card">
                      <div class="sekaloka_flat_img">
-                        <img src="images/man.png" alt="Raka"/>
+                        <img src="images/man.png" alt="Raka Wijaya"/>
+                        <div class="team_sosmed_overlay">
+                           <div class="team_sosmed_icons">
+                              <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                              <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                              <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                           </div>
+                        </div>
                      </div>
                      <div class="sekaloka_flat_content text-center">
-                        <h3>Raka</h3>
+                        <h3>Raka Wijaya</h3>
                         <span class="sekaloka_flat_role">Customer Service</span>
                      </div>
                   </div>
@@ -593,11 +607,11 @@
             </div>
          </div>
       </div>
-      <!-- end customer -->
+      <!-- end team -->
       <!-- sekoloka cta -->
       <div id="contact" class="sekaloka_cta_section">
          <div class="container">
-            <div class="row align-items-center background_cta_wrapper">
+            <div class="row align-items-stretch no-gutters background_cta_wrapper">
                
                <div class="col-md-6 padding_zero_mobile">
                   <div class="sekaloka_cta_img">
@@ -720,7 +734,7 @@
                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
                            <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
-                           <a href="#" target="_blank"><i class="fa fa-tiktok"></i></a>
+                           <a href="#" target="_blank" style="display: inline-flex; align-items: center; justify-content: center;"><i class="bx bxl-tiktok" style="font-size: 16px;"></i></a>
                         </div>
                      </div>
                   </div>
@@ -743,15 +757,15 @@
                         <ul class="footer_contact_info">
                            <li>
                               <i class="fa fa-map-marker"></i>
-                              <span>Jalan Panglima Sudirman No. 101-103, Embong Kaliasin, Kecamatan Genteng, Surabaya.</span>
+                              <span><span>Jl. Tirta Nirwana No. 42, Kota Surabaya, Jawa Timur 60264.</span></span>
                            </li>
                            <li>
                               <i class="fa fa-phone"></i>
-                              <span>+62 812-3456-7890</span>
+                              <span>+62 812-3456-7890/span>
                            </li>
                            <li>
                               <i class="fa fa-envelope"></i>
-                              <span>info@sekalokaspa.com</span>
+                              <span>hello@sekalokaspa.com</span>
                            </li>
                            <li>
                               <i class="fa fa-clock-o"></i>
@@ -780,44 +794,9 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         $('a[href^="#"]').on('click', function(event) {
-         
-          var target = $(this.getAttribute('href'));
-         
-          if( target.length ) {
-              event.preventDefault();
-              $('html, body').stop().animate({
-                  scrollTop: target.offset().top
-              }, 2000);
-          }
-         
-         });
-      </script>
-      <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
-         function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
-             });
-         
-         var image = 'images/maps-and-flags.png';
-         var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
-             map: map,
-             icon: image
-           });
-         }
-      </script>
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js --> 
+      
    </body>
 </html>
 
